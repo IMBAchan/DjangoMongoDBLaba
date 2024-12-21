@@ -1,0 +1,52 @@
+[
+{
+  "model": "client",
+  "pk": 1,
+  "fields": {
+    "full_name": "Alice Smith",
+    "phone_number": "987-654-3210",
+    "email": "alice@example.com",
+    "discount_card_number": 1001
+  }
+},
+{
+  "model": "client",
+  "pk": 2,
+  "fields": {
+    "full_name": "Bob Johnson",
+    "phone_number": "876-543-2109",
+    "email": "bob@example.com",
+    "discount_card_number": null
+  }
+},
+{
+  "model": "client",
+  "pk": 3,
+  "fields": {
+    "full_name": "Carol White",
+    "phone_number": "765-432-1098",
+    "email": "carol@example.com",
+    "discount_card_number": 1002
+  }
+},
+{
+  "model": "client",
+  "pk": 4,
+  "fields": {
+    "full_name": "David Brown",
+    "phone_number": "654-321-0987",
+    "email": "david@example.com",
+    "discount_card_number": 1003
+  }
+},
+{
+  "model": "client",
+  "pk": 5,
+  "fields": {
+    "full_name": "Eve Black",
+    "phone_number": "543-210-9876",
+    "email": "eve@example.com",
+    "discount_card_number": null
+  }
+}
+]

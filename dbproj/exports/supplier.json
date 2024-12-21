@@ -1,0 +1,30 @@
+[
+{
+  "model": "supplier",
+  "pk": 1,
+  "fields": {
+    "name": "Tech Supplies Inc."
+  }
+},
+{
+  "model": "supplier",
+  "pk": 2,
+  "fields": {
+    "name": "Gadget World"
+  }
+},
+{
+  "model": "supplier",
+  "pk": 3,
+  "fields": {
+    "name": "Best Components"
+  }
+},
+{
+  "model": "supplier",
+  "pk": 4,
+  "fields": {
+    "name": "Hardware Solutions"
+  }
+}
+]

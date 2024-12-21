@@ -1,0 +1,11 @@
+[
+{
+  "model": "director",
+  "pk": 1,
+  "fields": {
+    "full_name": "John Doe",
+    "phone_number": "123-456-7890",
+    "ownership_object": "laba2_Store Ownership"
+  }
+}
+]

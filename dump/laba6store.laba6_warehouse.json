@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "675f470c006cb755cc27d319"
+  },
+  "warehouse_id": 1,
+  "address": "123 Main St, Springfield"
+},
+{
+  "_id": {
+    "$oid": "675f4711006cb755cc27d31b"
+  },
+  "warehouse_id": 2,
+  "address": "456 Oak St, Springfield"
+}]

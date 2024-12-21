@@ -1,0 +1,18 @@
+[
+{
+  "model": "manufacturer",
+  "pk": 1,
+  "fields": {
+    "name": "Intel",
+    "country": "USA"
+  }
+},
+{
+  "model": "manufacturer",
+  "pk": 2,
+  "fields": {
+    "name": "Asus",
+    "country": "Taiwan"
+  }
+}
+]

@@ -1,0 +1,23 @@
+[
+{
+  "model": "discountcard",
+  "pk": 1001,
+  "fields": {
+    "discount_amount": "5.00"
+  }
+},
+{
+  "model": "discountcard",
+  "pk": 1002,
+  "fields": {
+    "discount_amount": "10.00"
+  }
+},
+{
+  "model": "discountcard",
+  "pk": 1003,
+  "fields": {
+    "discount_amount": "15.00"
+  }
+}
+]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "675ee535c06186ffa8a7a2e3"
+  },
+  "discount_card_number": 1,
+  "discount_amount": {
+    "$numberDecimal": "5.00"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ee535c06186ffa8a7a2e4"
+  },
+  "discount_card_number": 2,
+  "discount_amount": {
+    "$numberDecimal": "10.00"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ee535c06186ffa8a7a2e5"
+  },
+  "discount_card_number": 3,
+  "discount_amount": {
+    "$numberDecimal": "15.00"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ee9dd3439e2d713027b9f"
+  },
+  "discount_card_number": 4,
+  "discount_amount": {
+    "$numberDecimal": "50.00"
+  }
+}]

@@ -1,0 +1,57 @@
+[
+{
+  "model": "employee",
+  "pk": 1,
+  "fields": {
+    "full_name": "Emma Watson",
+    "position": "Sales Manager",
+    "phone_number": "222-333-4444",
+    "passport_data": "PA123456",
+    "gender": "Female"
+  }
+},
+{
+  "model": "employee",
+  "pk": 2,
+  "fields": {
+    "full_name": "Liam Neeson",
+    "position": "laba2_Warehouse Worker",
+    "phone_number": "333-444-5555",
+    "passport_data": "PB654321",
+    "gender": "Male"
+  }
+},
+{
+  "model": "employee",
+  "pk": 3,
+  "fields": {
+    "full_name": "Olivia Green",
+    "position": "Cashier",
+    "phone_number": "444-555-6666",
+    "passport_data": "PC789012",
+    "gender": "Female"
+  }
+},
+{
+  "model": "employee",
+  "pk": 4,
+  "fields": {
+    "full_name": "Noah Blue",
+    "position": "Delivery Person",
+    "phone_number": "555-666-7777",
+    "passport_data": "PD890123",
+    "gender": "Male"
+  }
+},
+{
+  "model": "employee",
+  "pk": 5,
+  "fields": {
+    "full_name": "Sophia Grey",
+    "position": "Customer Support",
+    "phone_number": "666-777-8888",
+    "passport_data": "PE123789",
+    "gender": "Female"
+  }
+}
+]

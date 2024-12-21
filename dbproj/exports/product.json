@@ -1,0 +1,277 @@
+[
+{
+  "model": "product",
+  "pk": 1,
+  "fields": {
+    "supplier": 1,
+    "name": "Processor Intel i7",
+    "warehouse": 1,
+    "price": "250.00",
+    "description": "Intel i7 10th gen processor"
+  }
+},
+{
+  "model": "product",
+  "pk": 2,
+  "fields": {
+    "supplier": 1,
+    "name": "Motherboard Asus",
+    "warehouse": 1,
+    "price": "150.00",
+    "description": "Asus gaming motherboard"
+  }
+},
+{
+  "model": "product",
+  "pk": 3,
+  "fields": {
+    "supplier": 2,
+    "name": "RAM 16GB",
+    "warehouse": 1,
+    "price": "80.00",
+    "description": "16GB DDR4 RAM"
+  }
+},
+{
+  "model": "product",
+  "pk": 4,
+  "fields": {
+    "supplier": 2,
+    "name": "Graphics Card GTX 1660",
+    "warehouse": 2,
+    "price": "400.00",
+    "description": "Nvidia GTX 1660 Graphics Card"
+  }
+},
+{
+  "model": "product",
+  "pk": 5,
+  "fields": {
+    "supplier": 3,
+    "name": "SSD 1TB",
+    "warehouse": 2,
+    "price": "120.00",
+    "description": "1TB SSD Drive"
+  }
+},
+{
+  "model": "product",
+  "pk": 6,
+  "fields": {
+    "supplier": 4,
+    "name": "Power Supply 600W",
+    "warehouse": 2,
+    "price": "60.00",
+    "description": "600W Power Supply Unit"
+  }
+},
+{
+  "model": "product",
+  "pk": 7,
+  "fields": {
+    "supplier": 1,
+    "name": "Cooling Fan",
+    "warehouse": 1,
+    "price": "20.00",
+    "description": "High performance cooling fan"
+  }
+},
+{
+  "model": "product",
+  "pk": 8,
+  "fields": {
+    "supplier": 2,
+    "name": "Gaming Keyboard",
+    "warehouse": 1,
+    "price": "50.00",
+    "description": "Mechanical gaming keyboard"
+  }
+},
+{
+  "model": "product",
+  "pk": 9,
+  "fields": {
+    "supplier": 3,
+    "name": "Mouse Logitech",
+    "warehouse": 2,
+    "price": "30.00",
+    "description": "Wireless mouse Logitech"
+  }
+},
+{
+  "model": "product",
+  "pk": 10,
+  "fields": {
+    "supplier": 4,
+    "name": "Monitor 24\"",
+    "warehouse": 2,
+    "price": "200.00",
+    "description": "24-inch full HD monitor"
+  }
+},
+{
+  "model": "product",
+  "pk": 11,
+  "fields": {
+    "supplier": 1,
+    "name": "Laptop Stand",
+    "warehouse": 1,
+    "price": "25.00",
+    "description": "Ergonomic laptop stand"
+  }
+},
+{
+  "model": "product",
+  "pk": 12,
+  "fields": {
+    "supplier": 2,
+    "name": "USB-C Hub",
+    "warehouse": 1,
+    "price": "40.00",
+    "description": "Multi-port USB-C hub"
+  }
+},
+{
+  "model": "product",
+  "pk": 13,
+  "fields": {
+    "supplier": 3,
+    "name": "External Hard Drive 2TB",
+    "warehouse": 2,
+    "price": "90.00",
+    "description": "2TB External Hard Drive"
+  }
+},
+{
+  "model": "product",
+  "pk": 14,
+  "fields": {
+    "supplier": 4,
+    "name": "Headphones Sony",
+    "warehouse": 1,
+    "price": "100.00",
+    "description": "Noise-canceling headphones"
+  }
+},
+{
+  "model": "product",
+  "pk": 15,
+  "fields": {
+    "supplier": 1,
+    "name": "Webcam Logitech",
+    "warehouse": 1,
+    "price": "70.00",
+    "description": "Full HD webcam Logitech"
+  }
+},
+{
+  "model": "product",
+  "pk": 16,
+  "fields": {
+    "supplier": 2,
+    "name": "Portable Charger",
+    "warehouse": 1,
+    "price": "35.00",
+    "description": "10000mAh portable charger"
+  }
+},
+{
+  "model": "product",
+  "pk": 17,
+  "fields": {
+    "supplier": 3,
+    "name": "Printer HP",
+    "warehouse": 2,
+    "price": "120.00",
+    "description": "HP Laser Printer"
+  }
+},
+{
+  "model": "product",
+  "pk": 18,
+  "fields": {
+    "supplier": 4,
+    "name": "Wireless Router",
+    "warehouse": 2,
+    "price": "60.00",
+    "description": "Dual-band wireless router"
+  }
+},
+{
+  "model": "product",
+  "pk": 19,
+  "fields": {
+    "supplier": 1,
+    "name": "Microphone Blue Yeti",
+    "warehouse": 1,
+    "price": "130.00",
+    "description": "Blue Yeti USB microphone"
+  }
+},
+{
+  "model": "product",
+  "pk": 20,
+  "fields": {
+    "supplier": 2,
+    "name": "Gaming Chair",
+    "warehouse": 1,
+    "price": "250.00",
+    "description": "Ergonomic gaming chair"
+  }
+},
+{
+  "model": "product",
+  "pk": 21,
+  "fields": {
+    "supplier": 3,
+    "name": "Smartphone Samsung Galaxy",
+    "warehouse": 2,
+    "price": "800.00",
+    "description": "Samsung Galaxy smartphone"
+  }
+},
+{
+  "model": "product",
+  "pk": 22,
+  "fields": {
+    "supplier": 4,
+    "name": "Tablet iPad",
+    "warehouse": 2,
+    "price": "500.00",
+    "description": "Apple iPad"
+  }
+},
+{
+  "model": "product",
+  "pk": 23,
+  "fields": {
+    "supplier": 1,
+    "name": "VR Headset",
+    "warehouse": 1,
+    "price": "300.00",
+    "description": "Virtual Reality headset"
+  }
+},
+{
+  "model": "product",
+  "pk": 24,
+  "fields": {
+    "supplier": 2,
+    "name": "Drone DJI",
+    "warehouse": 2,
+    "price": "1000.00",
+    "description": "DJI Mavic drone"
+  }
+},
+{
+  "model": "product",
+  "pk": 25,
+  "fields": {
+    "supplier": 3,
+    "name": "Smartwatch Garmin",
+    "warehouse": 1,
+    "price": "150.00",
+    "description": "Garmin smartwatch"
+  }
+}
+]

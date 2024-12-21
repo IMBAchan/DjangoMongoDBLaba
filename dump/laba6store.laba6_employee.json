@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "676370d449aac9694abc53a4"
+  },
+  "employee_id": 1,
+  "full_name": "John Doe",
+  "position": "cashir",
+  "phone_number": "123-456-7890",
+  "passport_data": "76767",
+  "gender": "Male"
+}]

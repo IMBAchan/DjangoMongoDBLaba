@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "676370d749aac9694abc53a6"
+  },
+  "order_id": 1,
+  "order_date": {
+    "$date": "2024-12-19T01:02:27.000Z"
+  },
+  "order_amount": {
+    "$numberDecimal": "122.00"
+  },
+  "payment_method": "scsc",
+  "client_id": 1,
+  "delivery_method": "scasc",
+  "responsible_employee_id": 1,
+  "product_id": 8
+},
+{
+  "_id": {
+    "$oid": "6766219d201cd609bf006425"
+  },
+  "order_id": 2,
+  "order_date": {
+    "$date": "2024-12-21T02:02:05.097Z"
+  },
+  "order_amount": {
+    "$numberDecimal": "142.50"
+  },
+  "payment_method": "PayPal",
+  "client_id": 1,
+  "delivery_method": "test",
+  "responsible_employee_id": 1,
+  "product_id": 2
+},
+{
+  "_id": {
+    "$oid": "67662254201cd609bf00642a"
+  },
+  "order_id": 3,
+  "order_date": {
+    "$date": "2024-12-21T02:05:08.035Z"
+  },
+  "order_amount": {
+    "$numberDecimal": "340.00"
+  },
+  "payment_method": "PayPal",
+  "client_id": 4,
+  "delivery_method": "test",
+  "responsible_employee_id": 1,
+  "product_id": 4
+},
+{
+  "_id": {
+    "$oid": "676622d4a5f29aaf6016e2ba"
+  },
+  "order_id": 4,
+  "order_date": {
+    "$date": "2024-12-21T02:07:16.837Z"
+  },
+  "order_amount": {
+    "$numberDecimal": "200.00"
+  },
+  "payment_method": "Cash",
+  "client_id": 5,
+  "delivery_method": "Pickup",
+  "responsible_employee_id": 1,
+  "product_id": 10
+},
+{
+  "_id": {
+    "$oid": "676623a4f74b7de2e7ae6fe0"
+  },
+  "order_id": 5,
+  "order_date": {
+    "$date": "2024-12-21T02:10:44.962Z"
+  },
+  "order_amount": {
+    "$numberDecimal": "108.00"
+  },
+  "payment_method": "Credit Card",
+  "client_id": 3,
+  "delivery_method": "Pickup",
+  "responsible_employee_id": 1,
+  "product_id": 5
+}]

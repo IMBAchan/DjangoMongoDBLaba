@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "676621ee201cd609bf006426"
+  },
+  "pickup_point_id": 1,
+  "director_id": 1,
+  "address": "123 Main St, Springfield",
+  "phone_number": "123-456-7890"
+},
+{
+  "_id": {
+    "$oid": "676621fd201cd609bf006428"
+  },
+  "pickup_point_id": 2,
+  "director_id": 1,
+  "address": "456 Oak St, Springfield",
+  "phone_number": "123-456-7675"
+}]

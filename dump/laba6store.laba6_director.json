@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "675ee81989610b0bcf5e7700"
+  },
+  "director_id": 1,
+  "full_name": "John Doe",
+  "phone_number": "123-456-7890",
+  "ownership_object": "Store Ownership"
+}]

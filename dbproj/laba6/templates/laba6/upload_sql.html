@@ -1,0 +1,20 @@
+<!-- laba2/templates/laba2/upload_sql.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завантаження SQL-файлу</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'laba2/styles/styles.css' %}">
+</head>
+<body>
+    <h1>Завантажити SQL-файл</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="sql_file">Виберіть SQL-файл:</label>
+        <input type="file" name="sql_file" accept=".sql" required>
+        <button type="submit">Завантажити</button>
+    </form>
+</body>
+</html>

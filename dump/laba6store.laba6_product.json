@@ -1,0 +1,338 @@
+[{
+  "_id": {
+    "$oid": "675f4764006cb755cc27d31e"
+  },
+  "article": 1,
+  "supplier_id": 1,
+  "name": "Processor Intel i7",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "250.00"
+  },
+  "description": "Intel i7 10th gen processor"
+},
+{
+  "_id": {
+    "$oid": "675f4777006cb755cc27d320"
+  },
+  "article": 2,
+  "supplier_id": 1,
+  "name": "Motherboard Asus",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "150.00"
+  },
+  "description": "Asus gaming motherboard"
+},
+{
+  "_id": {
+    "$oid": "675f4789006cb755cc27d322"
+  },
+  "article": 3,
+  "supplier_id": 2,
+  "name": "RAM 16GB",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "80.00"
+  },
+  "description": "16GB DDR4 RAM"
+},
+{
+  "_id": {
+    "$oid": "675f479b006cb755cc27d324"
+  },
+  "article": 4,
+  "supplier_id": 2,
+  "name": "Graphics Card GTX 1660",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "400.00"
+  },
+  "description": "Nvidia GTX 1660 Graphics Card"
+},
+{
+  "_id": {
+    "$oid": "675f47ae006cb755cc27d326"
+  },
+  "article": 5,
+  "supplier_id": 3,
+  "name": "SSD 1TB",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "120.00"
+  },
+  "description": "1TB SSD Drive"
+},
+{
+  "_id": {
+    "$oid": "675f47c1006cb755cc27d328"
+  },
+  "article": 6,
+  "supplier_id": 4,
+  "name": "Power Supply 600W",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "60.00"
+  },
+  "description": "600W Power Supply Unit"
+},
+{
+  "_id": {
+    "$oid": "675f47d0006cb755cc27d32a"
+  },
+  "article": 7,
+  "supplier_id": 1,
+  "name": "Cooling Fan",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "20.00"
+  },
+  "description": "High performance cooling fan"
+},
+{
+  "_id": {
+    "$oid": "675f47e3006cb755cc27d32c"
+  },
+  "article": 8,
+  "supplier_id": 2,
+  "name": "Gaming Keyboard",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "50.00"
+  },
+  "description": "Mechanical gaming keyboard"
+},
+{
+  "_id": {
+    "$oid": "675f4800006cb755cc27d32e"
+  },
+  "article": 9,
+  "supplier_id": 3,
+  "name": "Mouse Logitech",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "30.00"
+  },
+  "description": "Wireless mouse Logitech"
+},
+{
+  "_id": {
+    "$oid": "675f481d006cb755cc27d330"
+  },
+  "article": 10,
+  "supplier_id": 4,
+  "name": "Monitor 24\"",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "200.00"
+  },
+  "description": "24-inch full HD monitor"
+},
+{
+  "_id": {
+    "$oid": "675f4832006cb755cc27d332"
+  },
+  "article": 11,
+  "supplier_id": 1,
+  "name": "Laptop Stand",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "25.00"
+  },
+  "description": "Ergonomic laptop stand"
+},
+{
+  "_id": {
+    "$oid": "675f4843006cb755cc27d334"
+  },
+  "article": 12,
+  "supplier_id": 2,
+  "name": "USB-C Hub",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "40.00"
+  },
+  "description": "Multi-port USB-C hub"
+},
+{
+  "_id": {
+    "$oid": "675f4850006cb755cc27d336"
+  },
+  "article": 13,
+  "supplier_id": 3,
+  "name": "External Hard Drive 2TB",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "90.00"
+  },
+  "description": "2TB External Hard Drive"
+},
+{
+  "_id": {
+    "$oid": "675f486e006cb755cc27d338"
+  },
+  "article": 14,
+  "supplier_id": 4,
+  "name": "Headphones Sony",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "100.00"
+  },
+  "description": "Noise-canceling headphones"
+},
+{
+  "_id": {
+    "$oid": "675f48c2006cb755cc27d33a"
+  },
+  "article": 15,
+  "supplier_id": 4,
+  "name": "Headphones Sony",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "100.00"
+  },
+  "description": "Noise-canceling headphones"
+},
+{
+  "_id": {
+    "$oid": "675f48d4006cb755cc27d33c"
+  },
+  "article": 16,
+  "supplier_id": 1,
+  "name": "Webcam Logitech",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "70.00"
+  },
+  "description": "Full HD webcam Logitech"
+},
+{
+  "_id": {
+    "$oid": "675f48e5006cb755cc27d33e"
+  },
+  "article": 17,
+  "supplier_id": 2,
+  "name": "Portable Charger",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "35.00"
+  },
+  "description": "10000mAh portable charger"
+},
+{
+  "_id": {
+    "$oid": "675f48f5006cb755cc27d340"
+  },
+  "article": 18,
+  "supplier_id": 3,
+  "name": "Printer HP",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "120.00"
+  },
+  "description": "HP Laser Printer"
+},
+{
+  "_id": {
+    "$oid": "675f4904006cb755cc27d342"
+  },
+  "article": 19,
+  "supplier_id": 4,
+  "name": "Wireless Router",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "60.00"
+  },
+  "description": "Dual-band wireless router"
+},
+{
+  "_id": {
+    "$oid": "675f4916006cb755cc27d344"
+  },
+  "article": 20,
+  "supplier_id": 1,
+  "name": "Microphone Blue Yeti",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "130.00"
+  },
+  "description": "Blue Yeti USB microphone"
+},
+{
+  "_id": {
+    "$oid": "675f4926006cb755cc27d346"
+  },
+  "article": 21,
+  "supplier_id": 2,
+  "name": "Gaming Chair",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "250.00"
+  },
+  "description": "Ergonomic gaming chair"
+},
+{
+  "_id": {
+    "$oid": "675f4933006cb755cc27d348"
+  },
+  "article": 22,
+  "supplier_id": 3,
+  "name": "Smartphone Samsung Galaxy",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "800.00"
+  },
+  "description": "Samsung Galaxy smartphone"
+},
+{
+  "_id": {
+    "$oid": "675f4941006cb755cc27d34a"
+  },
+  "article": 23,
+  "supplier_id": 4,
+  "name": "Tablet iPad",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "500.00"
+  },
+  "description": "Apple iPad"
+},
+{
+  "_id": {
+    "$oid": "675f4950006cb755cc27d34c"
+  },
+  "article": 24,
+  "supplier_id": 1,
+  "name": "VR Headset",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "300.00"
+  },
+  "description": "Virtual Reality headset"
+},
+{
+  "_id": {
+    "$oid": "675f4960006cb755cc27d34e"
+  },
+  "article": 25,
+  "supplier_id": 2,
+  "name": "Drone DJI",
+  "warehouse_id": 2,
+  "price": {
+    "$numberDecimal": "1000.00"
+  },
+  "description": "DJI Mavic drone"
+},
+{
+  "_id": {
+    "$oid": "675f4972006cb755cc27d350"
+  },
+  "article": 26,
+  "supplier_id": 3,
+  "name": "Smartwatch Garmin",
+  "warehouse_id": 1,
+  "price": {
+    "$numberDecimal": "150.00"
+  },
+  "description": "Garmin smartwatch"
+}]

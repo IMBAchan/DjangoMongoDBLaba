@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "675f46d6006cb755cc27d311"
+  },
+  "supplier_id": 1,
+  "name": "Tech Supplies Inc."
+},
+{
+  "_id": {
+    "$oid": "675f46db006cb755cc27d313"
+  },
+  "supplier_id": 2,
+  "name": "Gadget World"
+},
+{
+  "_id": {
+    "$oid": "675f46df006cb755cc27d315"
+  },
+  "supplier_id": 3,
+  "name": "Best Components"
+},
+{
+  "_id": {
+    "$oid": "675f46e4006cb755cc27d317"
+  },
+  "supplier_id": 4,
+  "name": "Hardware Solutions"
+}]

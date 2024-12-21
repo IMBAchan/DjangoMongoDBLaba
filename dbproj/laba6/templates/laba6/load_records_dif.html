@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'laba2/styles/styles.css' %}">    
+    <title>Load records</title>
+    <script>
+        function redirectToSite() {
+            var method = document.getElementById('load-records-method').value;
+            var url;
+            switch(method) {
+                case '1':
+                    url = 'load-records/?method=1'; // перший сайт
+                    break;
+                case '2':
+                    url = 'load-records/?method=2'; // інший сайт
+                    break;
+                case '3':
+                    url = 'load-records/?method=3'; // ще один сайт
+                    break;
+                case '4':
+                    url = 'load-records/?method=4'; // ще один сайт
+                    break;
+                default:
+                    alert('Please select a method.');
+                    return;
+            }
+            window.location.href = url; // переадресація на вибраний сайт
+        }
+    </script>
+</head>
+<body>
+    <div class="load-records">
+        <h1>Select the load method</h1>
+        <div class="load-records-content">
+            <select name="method" id="load-records-method">
+                <option value="">Please select a method</option>
+                <option value="1">1. Lazy Loading</option>
+                <option value="2">2. Eager Loading</option>
+                <option value="3">3. Explicit Loading</option>
+                <option value="4">4. Agg/Sorting/Filter</option>
+            </select>
+            <button onclick="redirectToSite()">Confirm</button>
+        </div>
+    </div>
+</body>
+</html>

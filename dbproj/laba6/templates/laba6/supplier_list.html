@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список постачальників</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'laba2/styles/styles.css' %}">
+</head>
+<body>
+    <h1>Список постачальників</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ім'я</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for supplier in suppliers %}
+            <tr>
+                <td>{{ supplier.supplier_id }}</td>
+                <td>{{ supplier.name }}</td>
+                <td>
+                    <form id="deleteForm_{{ supplier.supplier_id }}" style="display:inline;" onsubmit="deleteSupplier(event, {{ supplier.supplier_id }}, '{{ csrf_token }}');">
+                        {% csrf_token %}
+                        <button class="supp-btn" type="submit">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script src="{% static 'laba2/js/supplier.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!-- all_records.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Всі записи</title>
+</head>
+<body>
+    <h1>Всі записи</h1>
+
+    <h2>Картки знижок</h2>
+    <ul>
+        {% for card in discount_cards %}
+            <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Директори</h2>
+    <ul>
+        {% for director in directors %}
+            <li>{{ director }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Клієнти</h2>
+    <ul>
+        {% for client in clients %}
+            <li>{{ client }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Працівники</h2>
+    <ul>
+        {% for employee in employees %}
+            <li>{{ employee }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Замовлення</h2>
+    <ul>
+        {% for order in orders %}
+            <li>{{ order }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Склади</h2>
+    <ul>
+        {% for warehouse in warehouses %}
+            <li>{{ warehouse }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Постачальники</h2>
+    <ul>
+        {% for supplier in suppliers %}
+            <li>{{ supplier }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Продукти</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Магазини</h2>
+    <ul>
+        {% for store in stores %}
+            <li>{{ store }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Служби доставки</h2>
+    <ul>
+        {% for service in delivery_services %}
+            <li>{{ service }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Пункти видачі</h2>
+    <ul>
+        {% for pickup_point in pickup_points %}
+            <li>{{ pickup_point }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Виробники</h2>
+    <ul>
+        {% for manufacturer in manufacturers %}
+            <li>{{ manufacturer }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

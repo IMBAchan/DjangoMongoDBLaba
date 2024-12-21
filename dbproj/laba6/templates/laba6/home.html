@@ -1,0 +1,23 @@
+<!-- laba2/templates/laba2/home.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'laba6/styles/styles.css' %}">
+</head>
+<body>
+    <h1>Виберіть дію</h1>
+    <ul>
+        <li><a href="{% url 'all_records' %}">Переглянути всі записи</a></li>
+        <li><a href="{% url 'upload_sql' %}">Завантажити SQL-файл</a></li>
+        <li><a href="{% url 'all_products' %}">Магазин</a></li>
+        <li><a href="/admin/">Відкрити адмін-панель</a></li>
+        <li><a href="{% url 'list_and_delete_suppliers' %}">Каскадне видалення</a></li>
+        <li><a href="{% url 'update_client' %}">Змінення данних про клієнта</a></li>
+        <li><a href="{% url 'load_records_dif' %}">Виведення данних різними способами</a></li>
+    </ul>
+</body>
+</html>

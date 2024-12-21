@@ -1,0 +1,20 @@
+[
+{
+  "model": "pickuppoint",
+  "pk": 1,
+  "fields": {
+    "director": 1,
+    "address": "101 First Ave, Springfield",
+    "phone_number": "111-222-3333"
+  }
+},
+{
+  "model": "pickuppoint",
+  "pk": 2,
+  "fields": {
+    "director": 1,
+    "address": "202 Second Ave, Springfield",
+    "phone_number": "222-333-4444"
+  }
+}
+]

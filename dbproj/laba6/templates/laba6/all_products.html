@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'laba6/styles/styles.css' %}">
+</head>
+<body>
+    <h1>Store</h1>
+
+    {% comment %} <div id="container3D"></div> {% endcomment %}
+
+    <div class="product-container">
+        {% for product in products %}
+        <div class="product">
+            <div class="image-placeholder">Image Placeholder</div>
+            <h2 class="name">{{ product.name }}</h2>
+            <p class="supplier">Supplier: {{ product.supplier }}</p>
+            <p class="price">Price: ${{ product.price }}</p>
+            <p class="description">{{ product.description }}</p>
+            <a href="/place-order/?article={{ product.article }}" class="buy-button">Buy Now</a>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% comment %} <script type="module" src="{% static 'laba6/js/main.js' %}"></script> {% endcomment %}
+</body>
+</html>

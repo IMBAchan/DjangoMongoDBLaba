@@ -1,0 +1,12 @@
+[
+{
+  "model": "store",
+  "pk": 1,
+  "fields": {
+    "director": 1,
+    "name": "Tech laba2_Store",
+    "address": "789 Elm St, Springfield",
+    "employee_count": 10
+  }
+}
+]

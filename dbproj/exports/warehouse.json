@@ -1,0 +1,16 @@
+[
+{
+  "model": "warehouse",
+  "pk": 1,
+  "fields": {
+    "address": "123 Main St, Springfield"
+  }
+},
+{
+  "model": "warehouse",
+  "pk": 2,
+  "fields": {
+    "address": "456 Oak St, Springfield"
+  }
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "model": "deliveryservice",
+  "pk": 1,
+  "fields": {
+    "name": "FastTrack Delivery",
+    "product_type": "Electronics"
+  }
+},
+{
+  "model": "deliveryservice",
+  "pk": 2,
+  "fields": {
+    "name": "Global Shipping",
+    "product_type": "Gadgets"
+  }
+},
+{
+  "model": "deliveryservice",
+  "pk": 3,
+  "fields": {
+    "name": "Local Express",
+    "product_type": "Computer Parts"
+  }
+}
+]
